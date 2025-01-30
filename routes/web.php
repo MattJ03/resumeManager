@@ -14,5 +14,5 @@ use App\Http\Controllers\ResumeController;
 |
 */
 
-Route::get('/upload-resume', [ResumeController::class, 'uplaodResume'])->name('upload-resume');
+Route::get('/upload-resume', [ResumeController::class, 'uploadResume'])->name('upload-resume');
 Route::post('/upload-resume', [ResumeController::class, 'uploadResume'])->name('upload-resume');
